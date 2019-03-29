@@ -1,2 +1,2 @@
-# JavaScript30Course
-Exercises to the JavaScript30 course by Wes Bos
+# JavaScript30 Course
+30 Day Vanilla JS Challenge made by Wes Bos.
