@@ -1,0 +1,39 @@
+:root {
+	--spacing: 20px;
+	--base: #5ab7d9;
+	--secondary: #19ffab;
+	--blur: 10px;
+}
+
+.img {
+	padding: var(--spacing);
+	background-color: var(--base);
+	-webkit-filter: blur(var(--blur));
+	        filter: blur(var(--blur));
+}
+
+.hl {
+	color: var(--base);
+}
+.custom-hl {
+	color: var(--secondary);
+}
+
+
+/*   
+  misc styles, nothing to do with CSS variables
+*/
+body {
+	text-align: center;
+	background: #193549;
+	color: white;
+	font-family: 'helvetica neue', sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+}
+.controls {
+	margin-bottom: 50px;
+}
+input {
+	width: 100px;
+}
